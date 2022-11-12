@@ -17,7 +17,8 @@ Inspected the CSVs and sketched out an ERD (Entity Relationship Diagram) of the 
 4. Employee : Department_Manager = Multiple : One (multiple manager in one department)
 5. Departments : Department_Employee = One : Multiple (one department has multiple employees)
 6. Departments : Department_Manager = One : Multiple (one department has multiple managers)
-[EmployeeSQL/SQL_HW_ERD_image.png]
+
+![SQL_HW_ERD_image](https://user-images.githubusercontent.com/112845583/201482996-d849e218-d41f-488c-8fc7-22176bb7a003.png)
 
 
 ### Data Engineering
@@ -31,35 +32,35 @@ Inspected the CSVs and sketched out an ERD (Entity Relationship Diagram) of the 
 [EmployeeSQL/images/table_4.png]
 [EmployeeSQL/images/table_5.png]
 [EmployeeSQL/images/table_6.png]
-  
+
 
 ### Data Analysis
 
 Following queries were performed on the  SQL tables [EmployeeSQL/SQL_HW_queries.sql]:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-[EmployeeSQL/images/query_1.png]
+<img width="443" alt="query_1" src="https://user-images.githubusercontent.com/112845583/201483187-b00fec6d-2279-4f0e-8fe3-7951f12f41d1.png">
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
-[EmployeeSQL/images/query_2.png]
+<img width="295" alt="query_2" src="https://user-images.githubusercontent.com/112845583/201483218-37218732-c794-47b7-a0eb-5fd0b86d6daa.png">
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-[EmployeeSQL/images/query_3.png]
+<img width="462" alt="query_3" src="https://user-images.githubusercontent.com/112845583/201483252-47041151-2ffe-49da-bc8e-ffd36d3eaee0.png">
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-[EmployeeSQL/images/query_4.png]
+<img width="389" alt="query_4" src="https://user-images.githubusercontent.com/112845583/201483276-69b69748-d40a-4044-9cad-7618e4875f0c.png">
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-[EmployeeSQL/images/query_5.png]
+<img width="317" alt="query_5" src="https://user-images.githubusercontent.com/112845583/201483277-a39cc430-a56e-4ac5-88c8-fe19d18bdec5.png">
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-[EmployeeSQL/images/query_6.png]
+<img width="384" alt="query_6" src="https://user-images.githubusercontent.com/112845583/201483275-3e45e13f-7598-4c38-8fd9-ff675e42a1d1.png">
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-[EmployeeSQL/images/query_7.png]
+<img width="388" alt="query_7" src="https://user-images.githubusercontent.com/112845583/201483294-38511013-feb8-4a9c-a86a-20fa07c73ae9.png">
 
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
-[EmployeeSQL/images/query_8.png]
+<img width="315" alt="query_8" src="https://user-images.githubusercontent.com/112845583/201483298-a6ca6015-40b3-4a98-bb71-2367a4d4d0e9.png">
 
 
 ## Submission
